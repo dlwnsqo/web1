@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+
+/*전체선택자: *{color:white; background:blue} */
+
+p{color:red; background:black}
+h1{color:blue}	
+
+#para {text-align: center; color:green}/*아이디*/
+
+.center{
+	text-align:center;
+	color: yellow;
+}/*클래스*/
+p.center{
+	text-align:center;
+	color: yellow;
+}/*<p>의 center에만 적용*/
+
+a:link{color:blue}/*a태그의 하이퍼링크*/
+a:visited{color:white}/*방문한 a태그의 링크*/
+a:hover{color: fuchisia}/*마우스를 올려놨을때 a태그의 링크*/
+h2:before{content: "★"; color:blue}/*h2요소 앞에 파란색 별 삽입*/
+h2:after{content: "★"; color:blue}
